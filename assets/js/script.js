@@ -59,6 +59,12 @@ $(document).ready(function () {
             "-webkit-transition-timing-function": "ease",
             "-webkit-animation-delay":"350ms",
             "-webkit-transition-duration": "200ms"
+
+            "-moz-transition-timing-function": "ease",
+            "-moz-animation-delay":"350ms",
+            "-moz-transition-duration": "200ms"
+
+
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #crafts , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
@@ -66,6 +72,8 @@ $(document).ready(function () {
              "-webkit-animation-delay" : "500ms",
              "-webkit-transition-timing-function": "ease",
             
+             "-moz-transition-timing-function": "ease",
+             "-moz-animation-delay":"500ms",
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #crafts , #arts").removeClass("color_change")
     }), $("#crafts").hover(function () {
@@ -74,12 +82,21 @@ $(document).ready(function () {
             "-webkit-transition-timing-function": "ease",
             "-webkit-animation-delay":"350ms",
             "-webkit-transition-duration": "200ms"
+
+            "-moz-transition-timing-function": "ease",
+            "-moz-animation-delay":"350ms",
+            "-moz-transition-duration": "200ms"
+
+
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #about , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
              "background-image": "url('assets/img/navbg.png')",
              "-webkit-animation-delay" : "500ms",
              "-webkit-transition-timing-function": "ease",
+
+             "-moz-transition-timing-function": "ease",
+             "-moz-animation-delay":"500ms",
             
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #about , #arts").removeClass("color_change")
@@ -89,12 +106,21 @@ $(document).ready(function () {
             "-webkit-transition-timing-function": "ease",
             "-webkit-animation-delay":"350ms",
             "-webkit-transition-duration": "200ms"
+
+            "-moz-transition-timing-function": "ease",
+            "-moz-animation-delay":"350ms",
+            "-moz-transition-duration": "200ms"
+
+
         }), $(".color_h_w li a").addClass("color_change"), $("#crafts , #about , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
              "background-image": "url('assets/img/navbg.png')",
              "-webkit-animation-delay" : "500ms",
              "-webkit-transition-timing-function": "ease",
+
+             "-moz-transition-timing-function": "ease",
+             "-moz-animation-delay":"500ms",
             
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#crafts , #about , #arts").removeClass("color_change")
@@ -104,6 +130,12 @@ $(document).ready(function () {
             "-webkit-transition-timing-function": "ease",
             "-webkit-animation-delay":"350ms",
             "-webkit-transition-duration": "200ms"
+
+            "-moz-transition-timing-function": "ease",
+            "-moz-animation-delay":"350ms",
+            "-moz-transition-duration": "200ms"
+
+
         }), $(".color_h_w li a").addClass("color_change"), $("#crafts , #about , #design").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
@@ -111,6 +143,10 @@ $(document).ready(function () {
              "background-image": "url('assets/img/navbg.png')",
              "-webkit-animation-delay" : "500ms",
              "-webkit-transition-timing-function": "ease",
+             
+             "-moz-transition-timing-function": "ease",
+             "-moz-animation-delay":"500ms",
+
         }), $(".color_h_w li a").removeClass("color_change"), $("#crafts , #about , #design").removeClass("color_change")
     }),
      $("#news").hover(function () {
