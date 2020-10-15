@@ -55,7 +55,7 @@ $(document).ready(function () {
         })
     }), $("#about").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/bg/art-design-gallery-group-460736.webp')",
+            "background-image": "url('assets/img/bg/art-design-gallery-group-460736.png')",
             "-webkit-transition-timing-function": "ease",
             "-webkit-animation-delay":"350ms",
             "-webkit-transition-duration": "200ms"
@@ -70,7 +70,7 @@ $(document).ready(function () {
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #crafts , #arts").removeClass("color_change")
     }), $("#crafts").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/bg/jo-szczepanska-9OKGEVJiTKk-unsplash.webp')",
+            "background-image": "url('assets/img/bg/jo-szczepanska-9OKGEVJiTKk-unsplash.png')",
             "-webkit-transition-timing-function": "ease",
             "-webkit-animation-delay":"350ms",
             "-webkit-transition-duration": "200ms"
@@ -85,7 +85,7 @@ $(document).ready(function () {
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #about , #arts").removeClass("color_change")
     }), $("#design").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/bg/drool.webp')",
+            "background-image": "url('assets/img/bg/drool.png')",
             "-webkit-transition-timing-function": "ease",
             "-webkit-animation-delay":"350ms",
             "-webkit-transition-duration": "200ms"
@@ -100,7 +100,7 @@ $(document).ready(function () {
         }), $(".color_h_w li a").removeClass("color_change"), $("#crafts , #about , #arts").removeClass("color_change")
     }), $("#arts").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/bg/person-holding-paintbrush-3959004.webp')",
+            "background-image": "url('assets/img/bg/person-holding-paintbrush-3959004.png')",
             "-webkit-transition-timing-function": "ease",
             "-webkit-animation-delay":"350ms",
             "-webkit-transition-duration": "200ms"
