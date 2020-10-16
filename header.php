@@ -53,22 +53,22 @@
             <div class="col-xl-5 nav-menu doomst">
                 <ul class="wowWrap">
                     <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
-                    <li><a id="about" class="wow"  href="about">About us</a></li>
-                    <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital">Atulya Designs</a></li>
-                    <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts">Atulya Crafts</a></li>
-                    <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection">Atulya Arts</a></li>
+                    <li><a id="about" class="wow"  href="about.php">About us</a></li>
+                    <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital.php">Atulya Designs</a></li>
+                    <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts.php">Atulya Crafts</a></li>
+                    <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection.php">Atulya Arts</a></li>
 
                 </ul>
             </div>
 
             <div class="col-xl-4 nav-menu small-nav color_h_w">
                 <ul class="sec">
-                    <li><a href="volunteer-program">Join as Volunteer</a></li>
-                    <li><a href="atulya-artists#join">Join As Artist</a></li>
-                    <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>
-                    <li><a href="news-and-articles">News and Articles</a></li>
-                    <li><a href="about#team">Our Team</a></li>
-                    <li><a data-wow-delay="0.30s" href="get-in-touch">Get in touch</a></li>
+                    <li><a href="volunteer-program.php">Join as Volunteer</a></li>
+                    <li><a href="atulya-artists.php#join">Join As Artist</a></li>
+                    <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
+                    <li><a href="news-and-articles.php">News and Articles</a></li>
+                    <li><a href="about.php#team">Our Team</a></li>
+                    <li><a data-wow-delay="0.30s" href="get-in-touch.php">Get in touch</a></li>
                 </ul>
             </div>
             <div class="col-xl-12"></div>
@@ -89,6 +89,6 @@
     <section class="main">
         <div onclick="openNav()" class="toggle-btn"><img src="assets/img/<?php echo $nav_toggle ?>" alt=""></div>
         <div class="logo ">
-            <a href="index"><img src="assets/img/<?php echo $logo ?>" class="img-fluid" alt=""></a>
+            <a href="index.php"><img src="assets/img/<?php echo $logo ?>" class="img-fluid" alt=""></a>
         </div>
     </section>

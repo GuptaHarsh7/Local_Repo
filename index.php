@@ -22,26 +22,26 @@
                 <!--div class="col-xl-4 vh-100 view-desktop" id="box">
 
                 </div-->
-                <div class="col-xl-1" style="margin-right : 0px; padding: 0px"></div>
+                <div class="col-xl-1" style="margin-right : 0rem; padding: 0rem"></div>
                 <div class="col-xl-5 nav-menu doomst">
                     <ul class="wowWrap">
                         <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
-                        <li><a id="about" class="wow"  href="about">About us</a></li>
-                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital">Atulya Designs</a></li>
-                        <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts">Atulya Crafts</a></li>
-                        <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection">Atulya Arts</a></li>
+                        <li><a id="about" class="wow"  href="about.php">About us</a></li>
+                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital.php">Atulya Designs</a></li>
+                        <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts.php">Atulya Crafts</a></li>
+                        <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection.php">Atulya Arts</a></li>
 
                     </ul>
                 </div>
 
                 <div class="col-xl-4 nav-menu small-nav color_h_w">
                     <ul class="sec">
-                        <li><a href="volunteer-program">Join as Volunteer</a></li>
-                        <li><a href="atulya-artists#join">Join As Artist</a></li>
-                        <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>
-                        <li><a href="news-and-articles">News and Articles</a></li>
-                        <li><a href="about#team">Our Team</a></li>
-                        <li><a data-wow-delay="0.30s" href="get-in-touch">Get in touch</a></li>
+                        <li><a href="volunteer-program.php">Join as Volunteer</a></li>
+                        <li><a href="atulya-artists.php#join">Join As Artist</a></li>
+                        <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
+                        <li><a href="news-and-articles.php">News and Articles</a></li>
+                        <li><a href="about.php#team">Our Team</a></li>
+                        <li><a data-wow-delay="0.30s" href="get-in-touch.php">Get in touch</a></li>
                     </ul>
                 </div>
                 <div class="col-xl-12"></div>
@@ -88,7 +88,7 @@
                     via the internet infrastructure. </p>
             </div>
             <div class="call-to-action">
-                <a href="about" class="btn-call-to-action small-btn">About Us</a>
+                <a href="about.php" class="btn-call-to-action small-btn">About Us</a>
             </div>
         </div>
     </section>
@@ -106,7 +106,7 @@
                     <p> Imagine an inspiration tool that connects visual arts with the real world, creating unbreakable connections with the existing world of art and culture.</p>
                 </div>
                 <div class="call-to-action">
-                    <a href="premium-collection" class="btn-call-to-action">Premium Collection</a>
+                    <a href="premium-collection.php" class="btn-call-to-action">Premium Collection</a>
                 </div>
             </div>
         </section>
@@ -131,7 +131,7 @@
                             <p>The aim of art is to represent not the outward appearance of things, but their inward significance. An accumulation of works of art by a private individual.</p>
                         </div>
                         <div class="call-to-action f-left">
-                            <a href="volunteer-program#network" class="btn-call-to-action">Join our network</a>
+                            <a href="volunteer-program.php#network" class="btn-call-to-action">Join our network</a>
                         </div>
                     </div>
                     <div class="col-lg-2"></div>
@@ -152,7 +152,7 @@
                         significance. </p>
                 </div>
                 <div class="call-to-action">
-                    <a href="volunteer-program" class="btn-call-to-action">Volunteer with us</a>
+                    <a href="volunteer-program.php" class="btn-call-to-action">Volunteer with us</a>
                 </div>
             </div>
         </section>
