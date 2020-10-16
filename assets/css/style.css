@@ -12,7 +12,11 @@ html {
     font-family: Roboto, sans-serif;
     color: #707070;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    
+}
+
+body{
+    overflow: hidden;
 }
 
 h5 {
@@ -1544,10 +1548,17 @@ textarea {
     border-bottom: none;
 }
 
-@media screen and (max-width:1919px) {}
+@media screen and (max-width:1919px) {
+    body{
+        overflow-x: hidden;
+    }
+}
 
 @media screen and (max-width:768px) {
-    
+    body,html{
+        overflow-x: hidden;
+    }
+
     .p-abs figure img {
         width: 100%;
         margin-top: 3.125rem;
@@ -1603,7 +1614,9 @@ textarea {
 @media (min-width: 1920px) {
 
 	
-
+    body{
+        overflow-x: hidden;
+    }
     .container,
     .container-lg,
     .container-md,
@@ -1615,7 +1628,9 @@ textarea {
 
 @media screen and (max-height: 450px) {
 
-	
+	body,html{
+        overflow-x: hidden;
+    }
     .sidenav {
         padding-top: 0.9375rem;
     }
@@ -1627,6 +1642,10 @@ textarea {
 
 @media screen and (max-width:768px) {
 	
+    body,html{
+        overflow-x: hidden;
+    }
+
     #main .content {
         padding: 0rem 1rem;
     }
@@ -2032,11 +2051,19 @@ select::after {
 }
 
 @media screen and (max-width:768px){
-	
+	body,html{
+        overflow-x: hidden;
+    }
     .logo-pos{
         position: relative;
         text-align: left;
         margin-top:0rem;
         left: 7%;
+    }
+}
+
+@media screen and(max-width: 520px){
+    body,html{
+        overflow-x: hidden;
     }
 }
