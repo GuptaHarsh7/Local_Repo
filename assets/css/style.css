@@ -263,7 +263,7 @@ p {
     -moz-transition: all .7s;
     -o-transition: all .7s;
     transition: all 0.7s;
-    background-image: url('../img/navbg.png');
+    background: #F6F4F2;
     background-size: 100% 100% !important;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -276,7 +276,7 @@ p {
 }
 
 .nav-menu {
-    padding-top: 12%;
+    padding-top: 10%;
 }
 
 .vh-100 {
@@ -371,7 +371,8 @@ p {
 .sidenav a {
     padding-top: 0;
     padding-left: 0rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0.825rem;
 }
 
 .sidenav a:hover {
@@ -381,7 +382,7 @@ p {
 .sidenav .closebtn {
     position: absolute;
     top: 1.25rem;
-    right: 8.690vw;
+    right: 7.692vw;
     /* font-size: 50px; */
     margin-left: 3.125rem;
 }
@@ -947,6 +948,10 @@ footer .widget ul li {
 footer .widget ul li a {
     color: #AAAAAA;
 }
+footer .widget ul li a:hover{
+    color: #FFFFFF;
+    text-decoration: none !important;
+}
 
 footer .copyright {
     padding-top: 3.78125VW;
@@ -970,6 +975,10 @@ footer .copyright ul li a {
     color: #FFFFFF;
     font-size: 0.75rem;
     font-family: sans-serif;
+}
+footer .copyright ul li a:hover{
+    color:#b3b1b1;
+    text-decoration: none !important;
 }
 
 footer .copyright ul li span {
@@ -1841,8 +1850,12 @@ textarea {
 }
 
 .live ul li h6 a {
-    color: #000;
+    color: #585858;
     text-transform: none;
+}
+.live ul li h6 a:hover {
+    color: #000000;
+    text-decoration: none !important;
 }
 
 .uppercase span {
