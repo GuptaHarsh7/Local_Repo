@@ -7,7 +7,7 @@ function openNav() {
          document.getElementById("main").style.margintop = "100%", 
          $("#content").css("display", "none"), 
          $("#main .logo").css("display", "none"), 
-         $("#mySidenav").css({"overflow-y" : "auto !important"}), 
+         $("#mySidenav").css({"overflow-y" : "auto !important"}),  
          $(".closebtn").css("display", "block")
 }
 
@@ -56,65 +56,61 @@ $(document).ready(function () {
     }), $("#about").hover(function () {
         $("#mySidenav").css({
             "background-image": "url('assets/img/bg/art-design-gallery-group-460736.png')",
-            "-webkit-transition-timing-function": "ease-in-out",
-            "-webkit-animation-delay":"550ms",
-            "-webkit-transition-duration": "700ms",
-            "-webkit-animation-timing-function":"ease"
+            "-webkit-transition-timing-function": "ease",
+            "-webkit-animation-delay":"350ms",
+            "-webkit-transition-duration": "200ms"
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #crafts , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
              "background-image": "url('assets/img/navbg.png')",
-             "-webkit-animation-delay" : "700ms",
-             "-webkit-transition-timing-function": "ease-in-out",
+             "-webkit-animation-delay" : "500ms",
+             "-webkit-transition-timing-function": "ease",
             
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #crafts , #arts").removeClass("color_change")
     }), $("#crafts").hover(function () {
         $("#mySidenav").css({
             "background-image": "url('assets/img/bg/jo-szczepanska-9OKGEVJiTKk-unsplash.png')",
-            "-webkit-transition-timing-function": "ease-in-out",
-            "-webkit-animation-delay":"550ms",
-            "-webkit-transition-duration": "700ms",
-            "-webkit-animation-timing-function":"ease"
+            "-webkit-transition-timing-function": "ease",
+            "-webkit-animation-delay":"350ms",
+            "-webkit-transition-duration": "200ms"
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #about , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
              "background-image": "url('assets/img/navbg.png')",
-             "-webkit-animation-delay" : "700ms",
-             "-webkit-transition-timing-function": "ease-in-out",
+             "-webkit-animation-delay" : "500ms",
+             "-webkit-transition-timing-function": "ease",
             
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #about , #arts").removeClass("color_change")
     }), $("#design").hover(function () {
         $("#mySidenav").css({
             "background-image": "url('assets/img/bg/drool.png')",
-            "-webkit-transition-timing-function": "ease-in-out",
-            "-webkit-animation-delay":"550ms",
-            "-webkit-transition-duration": "700ms",
-            "-webkit-animation-timing-function":"ease"
+            "-webkit-transition-timing-function": "ease",
+            "-webkit-animation-delay":"350ms",
+            "-webkit-transition-duration": "200ms"
         }), $(".color_h_w li a").addClass("color_change"), $("#crafts , #about , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
              "background-image": "url('assets/img/navbg.png')",
-             "-webkit-animation-delay" : "700ms",
-             "-webkit-transition-timing-function": "ease-in-out",
+             "-webkit-animation-delay" : "500ms",
+             "-webkit-transition-timing-function": "ease",
             
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#crafts , #about , #arts").removeClass("color_change")
     }), $("#arts").hover(function () {
         $("#mySidenav").css({
             "background-image": "url('assets/img/bg/person-holding-paintbrush-3959004.png')",
-            "-webkit-transition-timing-function": "ease-in-out",
-            "-webkit-animation-delay":"550ms",
-            "-webkit-transition-duration": "700ms",
-            "-webkit-animation-timing-function":"ease"
+            "-webkit-transition-timing-function": "ease",
+            "-webkit-animation-delay":"350ms",
+            "-webkit-transition-duration": "200ms"
         }), $(".color_h_w li a").addClass("color_change"), $("#crafts , #about , #design").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
 
              "background-image": "url('assets/img/navbg.png')",
-             "-webkit-animation-delay" : "700ms",
-             "-webkit-transition-timing-function": "ease-in-out",
+             "-webkit-animation-delay" : "500ms",
+             "-webkit-transition-timing-function": "ease",
         }), $(".color_h_w li a").removeClass("color_change"), $("#crafts , #about , #design").removeClass("color_change")
     }),
      $("#news").hover(function () {
