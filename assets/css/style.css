@@ -353,7 +353,7 @@ p {
 
 .sidenav a {
     text-decoration: none;
-    font-size: 300%;
+    font-size: 3rem;
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
     display: block;
@@ -2064,3 +2064,25 @@ select::after {
     }
 }
 
+@media only screen and (max-width:640px){
+
+    .sidenav ul li a{
+        font-size: 2.025rem !important;
+        margin:0rem !important;
+    }
+    .social-head{
+        display: none;
+    }
+    .small-nav{
+        margin:auto !important;
+    }
+    .col-xl-4{
+        padding-top: 0.625rem;
+    }
+    .small-nav ul li a{
+        font-weight: normal;
+        font-size: 2.025rem !important;
+        padding-left: 0rem;
+        margin:0rem !important;
+    }
+}
