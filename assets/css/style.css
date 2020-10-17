@@ -1816,7 +1816,7 @@ textarea {
 #mySidenav {
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow: auto !important;
     -webkit-transition-property: all;
     -webkit-transition-duration: .7s;
     -moz-transition: all .7s;

@@ -7,7 +7,7 @@ function openNav() {
          document.getElementById("main").style.margintop = "100%", 
          $("#content").css("display", "none"), 
          $("#main .logo").css("display", "none"), 
-         $("#mySidenav").css({"overflow-y" : "auto !important"}),  
+         $("#mySidenav").css({"overflow" : "auto !important"}),  
          $(".closebtn").css("display", "block")
 }
 
