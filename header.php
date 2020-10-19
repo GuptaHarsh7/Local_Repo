@@ -45,7 +45,7 @@
 
 <body style="background:<?php echo $bg_body_color ?>" id="body">
     <div id="mySidenav" class="sidenav" style="overflow: auto !important;">
-        <div class="row">
+        <div class="row nb">
             <!--div class="col-xl-4 vh-100 view-desktop" id="box">
 
                 </div-->
@@ -92,9 +92,46 @@
         </div>
     </div>
     </header>
-    <section class="main">
+    <section class="main bgnv">
         <div onclick="openNav()" class="toggle-btn"><img src="assets/img/<?php echo $nav_toggle ?>" alt=""></div>
         <div class="logo ">
             <a href="index.php"><img src="assets/img/<?php echo $logo ?>" class="img-fluid" alt=""></a>
         </div>
     </section>
+
+    <nav class="navbar navbar-dark bg-dark fixed-top n">
+         <a href="index.php" class="brand"><img src="assets/img/Component2.svg" class="img-fluid" alt=""></a>
+         <div onclick="openNav()" class="btn "><img src="assets/img/toggle-white.svg" alt=""></div>
+    </nav>
+
+    <style type="text/css">
+        .n{
+            visibility: hidden;
+        }
+        /*.n .brand{
+            /*padding-top: 0rem;*/
+             padding-bottom: 0rem;
+             margin-bottom: 0.625rem;
+        }*/
+        .n .btn{
+            height: 0.625rem;
+            width: 2.8125rem;   
+            margin-right:1rem; 
+            right: 7.292vw; 
+        }
+        @media only screen and (max-width:768px){
+            .bgnv{
+                visibility: hidden;
+            }
+            .n{
+                visibility: visible;
+                /*margin-left: 0rem;
+                padding-left: 0rem !important; */
+            }
+            .n .brand{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+    </style>

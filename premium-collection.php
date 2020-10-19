@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+
+<style type="text/css">
+    .dope .container{
+        margin-left:12.0625rem; padding-right:12.0625rem;
+    }
+</style>
+
 <div class="logo-pos">
     <img src="assets/img/aa.svg" class="img-fluid" alt="">
 </div>

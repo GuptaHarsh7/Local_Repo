@@ -1,8 +1,14 @@
 <?php include('header.php')?>
 
-<section class="main-content">
-    <div class="container">
-        <h5>The ‘Atulya’ Idea</h5>
+<style type="text/css">
+    .dope .container{
+        margin-left:12.0625rem; padding-right:12.0625rem;
+    }
+</style>
+
+<section class="main-content dope">
+    <div class="container"  >
+        <h5 style="margin-bottom: 3.125rem !important;">The ‘Atulya’ Idea</h5>
         <div class="web-wrap">
             <h1>BELIEVE <span>in</span><br> CRAFTSMANSHIP<br> <span>and</span> BEIGN AN ARTIST</h1>
             <div class="content">
@@ -34,15 +40,15 @@
 
 
 <div id="team"></div>
-<section class="bg-cream team">
-    <div class="container">
+<section class="bg-cream team dope">
+    <div class="container" >
         <h5>TEAM</h5>
         <div class="web-wrap">
             <h1><span>One</span> Team. <span>One</span> Dream.</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-10">
-                        <p class="intro">Atulya foundation is a family of artists and art enthusiasts, connected by an e-commerce platform through which one could browse and purchase art from a myriad of genres and types. We leverage the internet technologies to make the art business more engaging, efficient and lucrative and at the same time being secure and authentic. With billions of devices active on the internet, we have access to a massive customer base that conventionally would have required a tremendous amount of manpower, capital and infrastructure.</p>
+                        <p class="intro" style="margin-top: 1.025rem;">Atulya foundation is a family of artists and art enthusiasts, connected by an e-commerce platform through which one could browse and purchase art from a myriad of genres and types. We leverage the internet technologies to make the art business more engaging, efficient and lucrative and at the same time being secure and authentic. With billions of devices active on the internet, we have access to a massive customer base that conventionally would have required a tremendous amount of manpower, capital and infrastructure.</p>
                     </div>
                 </div>
             </div>
@@ -94,8 +100,8 @@
 </section>
 
 <div id="clients"></div>
-<section class="main-content">
-    <div class="container">
+<section class="main-content dope">
+    <div class="container" >
 
         <div class="web-wrap">
             <h1>Good customer service<br> <span>costs less than</span> bad<br> customer service.</h1>
