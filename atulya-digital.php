@@ -20,7 +20,7 @@
             <h1 class="uppercase">Combining strategy & <br> design <span>to</span> create brands <br> that lead <span>and</span> not just <br> keep up</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-10">
                         <p class="intro">We design powerful visual identities and usage standards so that your brand’s footprint is consistent and cohesive. From popular brands looking for a change to ambitious start-ups looking to break into the market, we collaborate closely with our clients to create winning brand stories.</p>
 
                     </div>
@@ -55,12 +55,12 @@
 <section class="atulya-image">
     <div class="container" >
         <div class="row">
-            <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1">
+            <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
                 <h3>Product Design Graphics</h3>
                 <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, corporate brochures, presentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts</p>
             </div>
             <div class="col-xl-1"></div>
-            <div class="col-xl-8 col-lg-6 col-md-6 order2">
+            <div class="col-xl-7 col-lg-6 col-md-6 order2">
                 <figure>
                     <img src="assets/img/artist/cad-3484213_1920.png" class="img-fluid">
                 </figure>
@@ -107,7 +107,7 @@
                 </figure>
             </div>
             <div class="col-xl-1 view-desktop"></div>
-            <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1">
+            <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
                 <h3>Film Design</h3>
                 <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
             </div>
@@ -152,7 +152,7 @@
                     <img src="assets/img/artist/gui-2311260_1280.png" class="img-fluid abs-img">
                 </figure>
             </div>
-            <div class="col-xl-3 col-lg-6 col-md-6 content order1">
+            <div class="col-xl-6 col-lg-6 col-md-6 content order1">
                 <h3>User Interface Graphics</h3>
                 <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
             </div>
@@ -184,22 +184,22 @@
     <div class="clearfix"></div>
 </section>
 
-<section class="atulya-last j-center container" style="margin-left: 15rem; padding-right: 15rem;">
-    <div class="web-wrap">
+<section class="atulya-last j-center container" >
+    <!-- <div class="web-wrap"> -->
         <div class="row justify-content-start">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-8">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
                 <p class="medium">For any of the above services, drop a mail to sales@atulyafoundation.org
                     mentioning the type of service you demand in the mail subject.</p>
             </div>
-            <div class="col-lg-2"></div>
-        </div>
+            <div class="col-lg-1"></div>
+       <!--  </div> -->
 
     </div>
 </section>
 
 <?php include('footer.php')  ?>
-<!-- <style>
+<style>
     .col,
     .col-1,
     .col-10,
@@ -273,9 +273,101 @@
         padding-left: 0;
         padding-right: 0;
     }
+    .intro{
+        padding-left: 24px !important; 
+        padding-right: 0px!important;
 
-    .main-content h1 {
-        margin-left: -17px;
     }
 
-</style> -->
+   /* .main-content h1 {
+        margin-left: -17px;
+    }*/
+
+    @media only screen and (max-width:768px){
+     .intro{
+        padding-left: 0px !important; 
+        padding-right: 0px!important;
+
+    }
+
+    .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        padding-left: 15px;
+        padding-right: 30px;
+    }
+    .dope h1{
+            font-size: 2.775rem;
+            margin-top: 0rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+</style>

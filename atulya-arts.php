@@ -4,8 +4,11 @@
     .dope .container{
         margin-left:12.0625rem;padding-right:10.0625rem; margin-bottom: 7.125rem;
     }
-</style>{
+</style>
 
+<div class="logo-pos">
+    <img src="assets/img/aa.svg" class="img-fluid" alt="">
+</div>
 <section class="main-content dope">
     <div class="container"  >
         <h5>Clients</h5>
@@ -13,8 +16,8 @@
             <h1 class="">Corporate <span>art</span> <br> Consulting <span> &</span> services</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <p class="intro">We are glad to be able to work on really interesting and challenging projects,
+                    <div class="col-lg-8">
+                        <p class="intro" style="padding-left: 24px; padding-right: 0px!important;">We are glad to be able to work on really interesting and challenging projects,
                             involving exciting technologies. In order to get on with more projects in the future, we are
                             working with a wide range of partners to solve real problems for real people.</p>
 
@@ -43,7 +46,7 @@
                         <div class="col-sm-12">
                             <h3>Development of an art program </h3>
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-12">
                             <p>What’s in a name? Well, everything!! Giving a name to a new brand or renaming an existing
                                 one is the starting point of all your communication. We work closely with our clients to
                                 develop a brand name that</p>
@@ -64,7 +67,7 @@
                     <div class="col-sm-12">
                         <h3>Art selection & Acquisition</h3>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-10">
                         <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, corporate brochures, presentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts</p>
                     </div>
                 </div>
@@ -99,7 +102,7 @@
                         <div class="col-sm-12">
                             <h3>Art Rental</h3>
                         </div>
-                        <div class="col-sm-9">
+                        <div class="col-sm-11">
                             <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
                         </div>
                     </div>
@@ -153,7 +156,7 @@
                         <div class="col-sm-12">
                             <h3>Framing and installation of selection</h3>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-10">
                             <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
                         </div>
                     </div>
@@ -175,7 +178,7 @@
                         <div class="col-sm-12">
                             <h3>Buy Local</h3>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-9">
                             <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, corporate brochures, presentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts</p>
                         </div>
                     </div>
@@ -211,7 +214,7 @@
                         <div class="col-sm-12">
                             <h3>Art restoration</h3>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-10">
                             <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
                         </div>
                     </div>
@@ -248,17 +251,17 @@
 <section class="atulya-last j-center container">
 
     <div class="row">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
             <p class="medium">For any of the above services, drop a mail to sales@atulyafoundation.org mentioning the type of service you demand in the mail subject.</p>
         </div>
-        <div class="col-lg-3"></div>
+        <div class="col-lg-1"></div>
     </div>
 
 </section>
 
 <?php include('footer.php')  ?>
-<!-- <style>
+<style>
     .col,
     .col-1,
     .col-10,
@@ -332,10 +335,99 @@
         padding-left: 0;
         padding-right: 0;
     }
+     .intro{
+        padding-left: 24px !important; 
+        padding-right: 0px!important;
 
-    .main-content h1 {
+    }
+
+    /*.main-content h1 {
         margin-left: -17px;
+    }*/
+    @media only screen and (max-width:768px){
+        .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        padding-left: 15px;
+        padding-right: 30px;
+    }
+     .intro{
+        padding-left: 0px !important; 
+        padding-right: 0px!important;
+
+    }
+    .dope h1{
+            font-size: 2.775rem;
+            margin-top: 0rem;
+            margin-bottom: 1rem;
+        }
     }
 
 </style>
- -->

@@ -7,14 +7,14 @@ function openNav() {
          document.getElementById("main").style.margintop = "100%", 
          $("#content").css("display", "none"), 
          $("#main .logo").css("display", "none"), 
-         $("#mySidenav").css({"overflow" : "auto !important"}),  
+         $("#mySidenav").css({"overflow" : "hidden !important"}),  
          $(".closebtn").css("display", "block")
 }
 
 function closeNav() {
-    1 == $("#mySidenav ul li a").hasClass("fadeInUp") && $("#mySidenav ul li a").removeClass(" fadeInUp animated"),
+    1 == $("#mySidenav ul li a").hasClass("fadeInUp") && $("#mySidenav ul li a").removeClass("fadeInUp animated"),
          // $("#mySidenav ul li a").removeClass(" fadeInUp animated"),
-        $("#mySidenav ul li a").addClass(" fadeOutDown animated"), 
+        $("#mySidenav ul li a").addClass("fadeOutDown animated"), 
     
         $("body").css("overflow-y", "scroll"), 
         document.getElementById("mySidenav").style.height = "0", 
@@ -24,27 +24,27 @@ function closeNav() {
         $("#main .logo").css("display", "block")
 }
 
-function openNav1() {
-    document.getElementById("mySidenav1").style.width = "100%", 
-    document.getElementById("main").style.marginRight = "70%", 
-    $("body").css("overflow-y", "hidden"), 
-    $("#content").css("display", "none"), 
-    $("#main .logo").css("display", "none"), 
-    $("#mySidenav1").css("overflow-y", "hidden")
-}
+// function openNav1() {
+//     document.getElementById("mySidenav1").style.width = "100%", 
+//     document.getElementById("main").style.marginRight = "70%", 
+//     $("body").css("overflow-y", "hidden"), 
+//     $("#content").css("display", "none"), 
+//     $("#main .logo").css("display", "none"), 
+//     $("#mySidenav1").css("overflow-y", "hidden")
+// }
 
-function closeNav1() {
-    document.getElementById("mySidenav1").style.width = "0", 
-    document.getElementById("main").style.marginRight = "0", 
-    $("#main").css({
-        "background-image": "url('assets/img/photo-of-statue-2929886.jpg')",
-        "background-position": "0px 0px!important",
-        "background-size": "100% 100%"
-    }), 
-    $("#content").css("display", "flex"), 
-    $("#main .logo").css("display", "block"), 
-    $("body").css("overflow-y", "scroll")
-}
+// function closeNav1() {
+//     document.getElementById("mySidenav1").style.width = "0", 
+//     document.getElementById("main").style.marginRight = "0", 
+//     $("#main").css({
+//         "background-image": "url('assets/img/photo-of-statue-2929886.jpg')",
+//         "background-position": "0px 0px!important",
+//         "background-size": "100% 100%"
+//     }), 
+//     $("#content").css("display", "flex"), 
+//     $("#main .logo").css("display", "block"), 
+//     $("body").css("overflow-y", "scroll")
+// }
 $(document).ready(function () {
     $("#mySidenav li a").click(function () {
         $("#mySidenav ul li a").removeClass(" fadeInUp animated"), $("#mySidenav ul li a").addClass(" fadeOutDown animated"), $("body").css("overflow-y", "scroll"), document.getElementById("mySidenav").style.height = "0", document.getElementById("main").style.marginTop = "0", $(".closebtn").css("display", "none"), $("#content").css("display", "flex"), $("#main .logo").css("display", "block")
@@ -68,12 +68,13 @@ $(document).ready(function () {
         // })
     }), $("#about").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/navbar/About Us_AF.jpg')",
+            
             "-webkit-animation-duration": "2s",
-            "-webkit-transition-property":"background-image",
-            "-webkit-transition-duration": "5s",
+            "-webkit-transition-property":"background-image !important",
+            "background-image": "url('assets/img/navbar/About Us_AF.jpg')",
+            "-webkit-transition-duration": "5s !important",
             "-webkit-animation-timing-function": "ease-in-out",
-            "-webkit-transition-timing-function": "ease-in-out",
+            "-webkit-transition-timing-function": "ease-in-out !important",
 
 
             "-moz-animation-duration":"2s",
