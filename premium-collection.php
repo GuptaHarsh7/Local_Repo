@@ -1,21 +1,17 @@
 <?php include('header.php') ?>
 
 <div class="logo-pos">
-    <img src="assets/img/aa.svg" class="img-fluid" alt="">
+    <a href="premium-collection.php"><img src="assets/img/aa.svg" class="img-fluid" alt=""></a>
 </div>
 <section class="main-content dope">
     <div class="container">
         <h5>Atulya arts</h5>
         <div class="web-wrap">
-            <h1 class="uppercase">A Great Work <span>of</span> Art <br> <span>and</span> Literature, <br> Thinking <span>through</span> art</h1>
+            <h1 class="uppercase">IF WE COULD SAY <span>it in</span> WORDS<br>THERE WOULD <span>be</span> NO<br>REASON <span>to</span> PAINT</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <p class="intro">Our art collection contains paintings of different themes and
-                            genres. We try to inculcate as many art forms as possible in
-                            our collection. Art lovers are free to choose according to their
-                            own interests and preferences.</p>
-
+                    <div class="col-lg-12">
+                        <p class="intro" style="color: #707070;">From traditional, arts to modern arts to portraits and art services, we promise you all forms of art products and services. What makes us unique is our artworks from some of the best artists combined with our research and analytical skills to add value to it. Atulya artist creates unique arts reflecting their own vision of world, dreams and aspirations.</p>
                     </div>
                 </div>
             </div>
@@ -29,10 +25,10 @@
                 <figure>
                     <img src="assets/img/artist/LRM_EXPORT_20180812_174856-01.png" class="img-fluid w-100" alt="">
                 </figure>
-                <h3>Sangeet</h3>
+                <!-- <h3>Sangeet</h3> -->
                 <div class="row">
                     <div class="col-sm-8">
-                        <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p>
+                        <!-- <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p> -->
                     </div>
                 </div>
 
@@ -41,10 +37,10 @@
                 <figure>
                     <img src="assets/img/artist/DSC_0988-02.png" class="img-fluid w-100" alt="">
                 </figure>
-                <h3>Rani sa</h3>
+                <!-- <h3>Rani sa</h3> -->
                 <div class="row">
                     <div class="col-sm-8">
-                        <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p>
+                        <!-- <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p> -->
                     </div>
                 </div>
             </div>
@@ -60,8 +56,8 @@
                 </figure>
             </div>
             <div class="col-xl-4 content" style="flex: 100%!important; max-width: 100%!important;">
-                <h3>Rajputana</h3>
-                <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours represents the..</p>
+                <!-- <h3>Rajputana</h3> -->
+               <!--  <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours represents the..</p> -->
             </div>
         </div>
         <div class="call-to-action">
@@ -78,12 +74,12 @@
                 <div class="col-xl-1 view-desktop"></div>
                 <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1 nopad">
                     <h3>Portraits</h3>
-                    <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
+                    <p>Your portraits will live much longer than you. We promise that our artist can paint you in beautiful colours on a canvass, much attractive than a photograph. Try gifting a portrait to a loved one for it will strengthen your bond with the person. </p>
                 </div>
-                <div class="col-xl-1 view-desktop"></div>
+                <div class="col-xl-2 view-desktop"></div>
                 <div class="col-xl-6 col-lg-6 col-md-6 order2">
                     <figure>
-                        <img src="assets/img/artist/watercolor-5049980_1920.png" class="img-fluid">
+                        <img src="assets/img/artist/1.jpg" class="img-fluid">
                     </figure>
                 </div>
             </div>
@@ -97,11 +93,11 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-6">
-                    <h5>Clients</h5>
-                    <h1 class="">Corporate <span>art</span><br>Consulting & servicesart</h1>
-                    <p class="intro" style="margin-top:24px">We are glad to be able to work on really interesting and challenging projects, involving exciting technologies. In order to get on with more projects in the future, we are working with a wide range of partners to solve real problems for real people.</p>
+                    <h5>Folk Art</h5>
+                    <h1 class="">Rich <span>traditions</span><br><span>painted</span> in colours</h1>
+                    <p class="intro" style="margin-top:24px">India is a home to numerous traditional art forms. These art forms depict stories of various cultures from different parts of India and are an invaluable part of our civilisation. We promise to bring to you these different art forms including<strong> Madhubani, Pattachitra, Wurli, Phad, Picchwai, Miniature</strong> from artists who have been carrying on these traditions from generations. One thing which we can assure you is, these traditional paintings will make your spaces much more beautiful since they carry with them a sense of heritage.</p>
                     <div class="call-to-action jfs">
-                        <a href="atulya-arts.php" class="btn-call-to-action">View All Services</a>
+                       <!--  <a href="atulya-arts.php" class="btn-call-to-action">View All Services</a> -->
                     </div>
                 </div>
                 <div class="col-sm-1"></div>
@@ -117,7 +113,7 @@
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-            <p class="medium">For any of the above services, drop a mail to sales@atulyafoundation.org mentioning the type of service you demand in the mail subject.</p>
+            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above products & services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning the type of service you demand in the mail subject.</p>
         </div>
         <div class="col-lg-1"></div>
     </div>
@@ -128,6 +124,13 @@
 
 
 <style type="text/css">
+    .atulya-last p a{
+        color: #707070;
+        text-decoration: none!important;
+    }
+    .atulya-last p a:hover{
+        color: black !important;
+    }
     .dope .container{
         margin-left:12.0625rem; padding-right:12.0625rem;
     }

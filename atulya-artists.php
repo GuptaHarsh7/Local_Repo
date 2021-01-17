@@ -4,22 +4,19 @@
     <div class="container">
         <h5 style="margin-bottom: 3rem;">Atulya Artists</h5>
         <div class="web-wrap">
-            <h1 class="uppercase" style="margin-bottom: 3rem;">Here <span>is</span>, how we <span>can</span><br> benefit artists.</h1>
+            <h1 class="uppercase" style="margin-bottom: 3rem;">LET <span>us</span> CRAFT<br> YOUR DREAMS <span>into</span> REALITY</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p class="intro">Let us craft your dreams into reality. We listen to you and welcome your ideas. Come visit us and you will see that all are true.</p>
+                        <p class="intro">We understand it takes courage to be creative. If you see the world more colourful than others, Atulya artist network is the right place for you. We firmly believe that the only qualification for an artist is his/her art and art alone, so we call you to join us just with your paintbrush.</p>
 
                     </div>
                     <div class="col-lg-6">
-                        <p>A complete range of artists including homemakers, professionals, students, etc. We
-                            firmly believe that the only qualification for an artist is his/her art and art alone.</p>
+                        <p>At Atulya we have always aimed to connect and with artists who are gifted by nature to express not the outward appearance of things, but their inward significance. A pool of all creative minds has been created from all races of life, professions, genders and regions.</p>
 
-                        <p>A system of referrals where potential artists will be recommended to us by people connected to us on social media.</p>
+                        <p>Atulya artists’ network includes homemakers, professionals, students, etc. from different parts of geography and specializing in different kinds of art forms. We are building an artists’ network in small towns and remote areas where the real art lies. We have a system of local ambassadors who help us in finding potential artists who cannot connect to us due to lack of infrastructure, knowledge & awareness.</p>
 
-                        <p>A system of local ambassadors who will help us finding potential artists who cannot connect to us due to lack of infrastructure or awareness.</p>
-
-                        <p>Artists from different parts of India and specializing in different kinds of art forms.</p>
+                        <p>Atulya’s social media platforms actively seeks to connect with talented and new age artists as well.</p>
                     </div>
                 </div>
             </div>
@@ -38,22 +35,23 @@
     <div class="container">
         <h5 style="margin-bottom: 3rem;">Network Benefits</h5>
         <div class="web-wrap">
-            <h1 style="margin-bottom: 3rem;">Colour outside <span> the </span> lines <br> inside <span> is </span>already filled</h1>
+            <h1 style="margin-bottom: 3rem;">FULFILLING <span>your</span> JOURNEY <br><span>to</span> COLOUR <span>the</span> WORLD</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p class="intro">Know more about network perks
-                            and blah blah blah.</p>
+                        <p class="intro">Some of the problems the artists face today are middleman, lack of technological infrastructure, lack of knowledge of the art market. Here is how we are attempting to solve.</p>
 
                     </div>
                     <div class="col-lg-6">
-                        <p>ARTWORK VALUATION: Proper valuation of their art after doing in-depth and detailed market research.</p>
+                        <p><strong>ARTWORK VALUATION</strong>: Proper valuation of their art after doing in-depth and detailed market research.</p>
 
-                        <p>POTENTIAL MARKETS: Finding potential markets and buyers across the globe using various internet platforms.</p>
+                        <p><strong>POTENTIAL MARKETS</strong>: Finding potential markets and buyers across the globe using various internet platforms.</p>
 
-                        <p>IPR PROTECTION: Providing for better protection and management to their Intellectual Property Rights.</p>
+                        <p><strong>IPR PROTECTION</strong>: Providing for better protection and management to their Intellectual Property Rights.</p>
 
-                        <p>INFRA & LOGISTICS: Infrastructure for packaging and shipment of their art work along with any other logistics required.</p>
+                        <p><strong>DIGITAL INFRASTRUCTURE</strong>: Monetizing art by inculcating it into different products and services using technology.</p>
+                        
+                        <p><strong>OPERATIONS & LOGISTICS</strong>: Infrastructure for packaging and shipment of art work along with any other logistics required.</p>
 
                     </div>
                 </div>
@@ -72,8 +70,8 @@
                 <div class="col-lg-5">
                     <h5 style="margin-bottom: 3rem;">Form</h5>
                     <h1>Join Artist <br> <span> network</span></h1>
-                    <p class="intro mt-40" style="color:#383838">The aim of art is to represent not the outward appearance of things, but their inward significance.</p>
-                    <p class="intro" style="color:#383838">Fill out this form to become an Atulya Artist</p>
+                   <!--  <p class="intro mt-40" style="color:#707070">The aim of art is to represent not the outward appearance of things, but their inward significance.</p> -->
+                    <p class="intro" style="color:#383838;margin-top: 2.4rem;margin-bottom: -1.2rem;">Fill out this form to become an Atulya Artist</p>
                 </div>
             </div>
             <div class="form">
@@ -82,12 +80,12 @@
                         <div class="col-xl-5">
                             <p>Personal Information</p>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="name" placeholder="">
-                                <label for="">NAME*</label>
+                                <input type="text" class="form-control" name="name" placeholder="NAME*">
+                                
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" id="age" class="form-control" name="age" placeholder="">
-                                <label for="">AGE*</label>
+                                <input type="text" id="age" class="form-control" name="age" placeholder="AGE*">
+                                
                             </div>
                             <div class="form-group ">
                                 <select required name="gender" required class="form-control" id="">
@@ -102,12 +100,12 @@
                         <div class="col-xl-5">
                             <p>Contact Information*</p>
                             <div class="form-group  input-group">
-                                <input type="email" class="form-control" name="email" placeholder="">
-                                <label for="">EMAIL*</label>
+                                <input type="email" class="form-control" name="email" placeholder="EMAIL*">
+                                
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" pattern="[7896][0-9]{9}" class="form-control" name="phone" placeholder="">
-                                <label for="">PHONE NUMBER*</label>
+                                <input type="text" pattern="[7896][0-9]{9}" class="form-control" name="phone" placeholder="PHONE NUMBER*">
+                                
                             </div>
                         </div>
                     </div>
@@ -117,27 +115,27 @@
                         </div>
                         <div class="col-xl-5">
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="street" placeholder="">
-                                <label for="">STREET*</label>
+                                <input type="text" class="form-control" name="street" placeholder="STREET*">
+                                
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="locality" placeholder="">
-                                <label for="">Locality*</label>
+                                <input type="text" class="form-control" name="locality" placeholder="Locality*">
+                                
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="city" placeholder="">
-                                <label for="">CITY*</label>
+                                <input type="text" class="form-control" name="city" placeholder="CITY*">
+                                
                             </div>
                         </div>
                         <div class="col-xl-2 view-desktop"></div>
                         <div class="col-xl-5">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="state" placeholder="">
-                                <label for="">STATE*</label>
+                                <input type="text" class="form-control" name="state" placeholder="STATE*">
+                                
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="zip" placeholder="">
-                                <label for="">PINCODE/ZIPCODE*</label>
+                                <input type="text" class="form-control" name="zip" placeholder="PINCODE/ZIPCODE*">
+                                
                             </div>
                         </div>
                     </div>
@@ -147,14 +145,14 @@
                         </div>
                         <div class="col-xl-12">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="bio" placeholder="">
-                                <label for="">Link to your artwork projects*</label>
+                                <input type="text" class="form-control" name="bio" placeholder="Link to your artwork projects*">
+                                
                             </div>
 
 
                             <div class="form-group input-group textarea">
-                                <textarea type="text" class="form-control" name="note" placeholder="" required></textarea>
-                                <label>Short Note*</label>
+                                <textarea type="text" class="form-control" name="note" placeholder="Additional Comments" required></textarea>
+                                
                             </div>
 
                             <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" target="_blank"> Terms of Service</a>.</p>

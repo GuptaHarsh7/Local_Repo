@@ -5,6 +5,13 @@
         margin-left:12.0625rem; padding-right:12.0625rem;
 
     }
+    .text1{
+        color: #707070 !important;
+    }
+    .text1:hover{
+        color: black !important;
+        text-decoration: none !important; 
+    }
 </style>
 
 <section class="main-content dope get-touch">
@@ -12,23 +19,19 @@
         <h5 style=" margin-bottom: 3.025rem;">Contact us</h5>
         <div class="web-wrap">
             <div class="content">
-                <h1 class="uppercase">Get in touch</h1>
+                <h1 class="uppercase">GET <span>in</span> TOUCH</h1>
                 <div class="row">
-                    <div class="col-lg-8 mt-40">
-                        <p class="intro">Let us craft your dreams into reality. We listen to you and welcome your ideas. Come visit us and you will see that all are true.</p>
+                    <div class="col-lg-12 mt-40">
+                        <p class="intro" style="padding-right: 0;">We listen to you and welcome your ideas.</p>
                         <div class="row">
-                            <div class="col-sm-5">
-                                <h3>Visit Us</h3>
-                                <p>II Floor, D-68 A, Aruna Park (Near
-                                    Metro pillar No. 50), Vikas Marg,
-                                    Shakarpur, Delhi – 110092</p>
+                            <div class="col-sm-6">
+                                <h3>Correspondence Address</h3>
+                                <p><em>III Floor, D-68 A, Aruna Park (Near Metro Pillar No. 50), Vikas Marg, New Delhi, India  – 110092</em></p>
                             </div>
                             <div class="col-sm-1"></div>
                             <div class="col-sm-5">
-                                <h3>Contact Info</h3>
-                                <p>Drop us a mail at<br> <a href="mailto:info@atulyafoundation.org">info@atulyafoundation.org</a>
-                                    <!-- or<br><br>
-                                    Drop us a line on <a href="tel:+91 8385088702">+91 8385088702</a> -->
+                                <h3>Drop us a message</h3>
+                                <p><em> <a href="mailto:info@atulyafoundation.org">info@atulyafoundation.org</a></em>
                                 </p>
                             </div>
                         </div>
@@ -50,23 +53,22 @@
 <section class="bg-white">
     <div class="main-content dope main-padding">
         <div class="container" >
-            <h2>If you don’t find what you need,<br>
-                Fill out our contact form</h2>
+            <h2>If you don’t find what you need, fill out our contact form</h2>
             <div class="form">
                 <form action="email.php" method="post">
                     <div class="row">
                         <div class="col-xl-8">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="Name" placeholder="" required>
-                                <label for="">NAME*</label>
+                                <input type="text" class="form-control" name="Name" placeholder="NAME*" required>
+                                
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" pattern="[7896][0-9]{9}" name="Phone" placeholder="" required>
-                                <label for="">PHONE*</label>
+                                <input type="text" class="form-control" pattern="[7896][0-9]{9}" name="Phone" placeholder="PHONE*" required>
+                                
                             </div>
                             <div class="form-group input-group">
-                                <input type="email" class="form-control" name="Email" placeholder="" required>
-                                <label for="">Email*</label>
+                                <input type="email" class="form-control" name="Email" placeholder="Email*" required>
+                                
                             </div>
                             <div class="form-group input-group textarea">
                                 <textarea type="text" class="form-control" name="Message" placeholder="" required></textarea>
@@ -84,5 +86,31 @@
     </div>
 </section>
 
+<section class="main-content dope get-touch">
+    <div class="container" style="
+    margin-top: -4.5rem;>
+        <h5 style=" margin-bottom: 3.025rem;">Social Media</h5>
+        <div class="web-wrap">
+            <div class="content" >
+                <h1 class="uppercase">Stay <span>tuned</span> ...</h1>
+                <div class="row">
+                    <div class="col-lg-12 mt-40">
+                        <div class="row">
+                            <!-- <div class="col-sm-2"></div> -->
+                            <div class="col-sm-3" style="color: black;"><p>Official Channels || </p></div>
+                             <div class="col-sm-2"> <a class="text1" href="https://www.instagram.com/atulya_foundation/"><i class="fab fa-instagram" ></i> Instagram</a></div>
+                            <div class="col-sm-2"><a class="text1" href="https://www.linkedin.com/company/atulya" ><i class="fab fa-linkedin"></i> LinkedIn</a></div>
+                            <div class="col-sm-2"><a class="text1" href="https://www.facebook.com/Aulyafoundation" ><i class="fab fa-facebook"></i> Facebook</a></div>
+                            <div class="col-sm-2"> <a class="text1" href="https://www.youtube.com/channel/UCFaDTKXpGJ7P8izz0inccNg" ><i class="fab fa-youtube"></i> Youtube</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5 tool"> </div>
+                    <div class="col-sm-12"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php include('footer.php') ?>
