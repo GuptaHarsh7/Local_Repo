@@ -30,16 +30,17 @@
     <div class="container"  >
         <div class="web-wrap">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 order2">
+
+                <div class="col-xl-6 col-lg-5 col-md-6 order2">
                     <figure>
                         <img src="assets/img/Art Consulting/Art Plan development/1.jpg" class="img-fluid">
                     </figure>
                 </div>
 
-                <div class="col-xl-1 view-desktop">
+                <div class="col-xl-1 col-lg-1 view-desktop">
                 </div>
 
-                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
+                <div class="col-xl-4 col-lg-5 col-md-6 j-center content order1">
                     <div class="row">
                         <div class="col-sm-12">
                             <h3>Art Plan Development</h3>
@@ -57,8 +58,8 @@
 <section class="atulya-image dope" style="margin-bottom: 8rem;">
     <div class="container"  >
         <div class="row">
-            <div class="col-xl-2"></div>
-            <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1" style="margin-top: -7rem;">
+            <div class="col-xl-1 col-lg-1"></div>
+            <div class="col-xl-4 col-lg-5 col-md-6 j-center content order1" >
                 <div class="row">
                     <div class="col-sm-12">
                         <h3>Art Curation & Acquisition</h3>
@@ -69,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="col-xl-5 col-lg-6 col-md-6 order2 p-abs">
+            <div class="col-xl-6 col-lg-5 col-md-6 order2 p-abs">
                 <figure>
                     <img src="assets/img/Art Consulting/Art curation _ Acquisition/1.jpg" class="img-fluid f-right">
                         <img src="assets/img/Art Consulting/Art curation _ Acquisition/2.jpg" class="img-fluid abs-img" style="left: 8% !important">
@@ -90,13 +91,13 @@
     <div class="container"  >
         <div class="web-wrap">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 order2">
+                <div class="col-xl-6 col-lg-5 col-md-6 order2">
                     <figure>
                         <img src="assets/img/Art Consulting/Art leasing/1.jpg" class="img-fluid">
                     </figure>
                 </div>
 
-                <div class="col-xl-1 view-desktop">
+                <div class="col-xl-1 col-lg-1 view-desktop">
                 </div>
 
                 <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
@@ -123,14 +124,14 @@
         <div class="container"  >
             <div class="row">
                 <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-3 col-lg-6 col-md-6 content order1 j-center" style="margin-top: -6rem;">
+                <div class="col-xl-3 col-lg-5 col-md-6 content order1 j-center" >
                     <h3>Customised Research</h3>
                     <p>While developing art programs our professional market researchers & analytics team do in depth research of the markets to fill in for the requests by our clients. In our research practice few elements play a key role such as client’s working industry/sector, team of employees, location of the site, regional culture & taste,  to bring out the best plan that rightly positions client’s brand.</p>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-4 order2 p-abs">
+                <div class="col-xl-6 col-lg-6 col-md-6 order2 p-abs">
                     <figure>
-                        <img src="assets/img/Art Consulting/Customised research/pexels-fauxels-3183153.jpg" class="img-fluid f-right">
-                        <img src="assets/img/artist/kaleidico-26MJGnCM0Wc-unsplash.png" class="img-fluid abs-img" style="left:95px;bottom:-90px;">
+                        <img src="assets/img/Art Consulting/Customised research/1.jpg" class="img-fluid f-right">
+                        <img src="assets/img/Art Consulting/Customised research/2.jpg" class="img-fluid abs-img">
                     </figure>
                 </div>
             </div>
@@ -149,18 +150,16 @@
     <div class="container"  >
         <div class="web-wrap">
             <div class="row">
-                <div class="col-xl-5 col-lg-6 col-md-6 order2 p-abs-l">
-                    <figure>
-                        
-                        <img src="assets/img/Art Consulting/Framing _ Installation/1.jpg" class="img-fluid">
-                    <img src="assets/img/Art Consulting/Framing _ Installation/2.jpg" class="img-fluid abs-img">
-
+                <div class="col-xl-6 col-lg-5 col-md-6 order2 p-abs-l">
+                    <figure>    
+                        <img src="assets/img/Art Consulting/Framing _ Installation/1.jpg" class="img-fluid ">
+                        <img src="assets/img/Art Consulting/Framing _ Installation/2.jpg" class="img-fluid abs-img">
                     </figure>
                 </div>
-                <div class="col-xl-1 view-desktop">
+                <div class="col-xl-1 col-lg-2 view-desktop">
                 </div>
 
-                <div class="col-xl-5 col-lg-6 col-md-6 j-center content order1 " style="margin-top: -13rem;">
+                <div class="col-xl-5 col-lg-5 col-md-6 j-center content order1 rd" >
                     <div class="row">
                         <div class="col-sm-12">
                             <h3>Art Framing & Installation</h3>
@@ -196,13 +195,16 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 order2">
                     <figure>
-                        <img src="assets/img/Art Consulting\Art localism/pexels-flat-hito-862938.jpg" class="img-fluid w-100">
+                        <img src="assets/img/Art Consulting\Art localism/pexels-flat-hito-862938.jpg" class="img-fluid ">
                     </figure>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
+
 
 <section class="atulya-image">
     <figure>
@@ -216,15 +218,15 @@
     <div class="container"  >
         <div class="web-wrap">
             <div class="row">
-                <div class="col-xl-5 col-lg-6 col-md-6 order2">
+                <div class="col-xl-6 col-lg-6 col-md-6 order2">
                     <figure>
                         <img src="assets/img/artist/vintage-923467_1920.png" class="img-fluid">
                     </figure>
                 </div>
-                <div class="col-xl-2 view-desktop">
+                <div class="col-xl-1 view-desktop">
                 </div>
 
-                <div class="col-xl-5 col-lg-6 col-md-6 j-center content order1">
+                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
                     <div class="row">
                         <div class="col-sm-12">
                             <h3>Art Restoration</h3>
@@ -245,14 +247,14 @@
         <div class="container"  >
             <div class="row">
                 <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-3 col-lg-6 col-md-6 content order1 j-center">
+                <div class="col-xl-3 col-lg-5 col-md-6 content order1 j-center">
                     <h3>Art Shipment</h3>
                     <p>If you are moving into a new space and are afraid that rough handling of your shipping company will damage your artworks. In that case, we have military grade packaging and specialised transport solution which will ship artworks to your new place intact without damages. We do insure artworks while we ship them, so that you can sit & relax without bothering about potential damages.</p>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-4 order2 p-abs">
+                <div class="col-xl-6 col-lg-6 col-md-6 order2 p-abs">
                     <figure>
                         <img src="assets/img/Art Consulting/Art shipment/1.jpg" class="img-fluid f-right">
-                        <img src="assets/img/artist/box-1209969_1920.png" class="img-fluid abs-img" style="left:190px;bottom:-70px;">
+                        <img src="assets/img/Art Consulting/Art shipment/2.jpg" class="img-fluid abs-img" style="left:190px;bottom:-70px;">
                     </figure>
                 </div>
             </div>
@@ -261,18 +263,17 @@
     <div class="clearfix"></div>
 </section>
 
-<section class="atulya-last j-center container">
-
-    <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10">
-            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning the type of service you demand in the mail subject.</p>
+<section class="atulya-last j-center" >
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> </p>
         </div>
-        <div class="col-lg-1"></div>
+        <div class="col-lg-3"></div>
     </div>
-
+    </div>
 </section>
-
 <?php include('footer.php')  ?>
 <style>
     .atulya-last p a{
@@ -282,6 +283,9 @@
     .atulya-last p a:hover{
         color: black !important;
     }
+   /* .rd{
+        margin-top: -13rem;
+    }*/
     .col,
     .col-1,
     .col-10,

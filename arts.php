@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/LRM_EXPORT_20180812_175443-01.png" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/LRM_EXPORT_20180812_175443-01.png" class="img-fluid " alt="">
                 </figure>
                 <h3>Wealth of Contentment</h3>
                 <div class="row">
@@ -38,7 +38,7 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/DSC_0981-01.png" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/DSC_0981-01.png" class="img-fluid " alt="">
                 </figure>
                 <h3>Awakening</h3>
                 <div class="row">
@@ -74,7 +74,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/LRM_EXPORT_20180812_174856-01.png" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/l1.jpg" class="img-fluid " alt="">
                 </figure>
                 <h3>Tazurba</h3>
                 <div class="row">
@@ -86,7 +86,7 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/DSC_0988-02.png" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/a.jpg" class="img-fluid " alt="">
                 </figure>
                 <h3>Panchtatva</h3>
                 <div class="row">
@@ -106,7 +106,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/DSC_0985-01.png" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/DSC_0985-01.png" class="img-fluid " alt="">
                 </figure>
                 <h3>Bond of Togetherness</h3>
                 <div class="row">
@@ -118,7 +118,7 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/Interface.jpg" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/Interface.jpg" class="img-fluid " alt="">
                 </figure>
                 <h3>Interface</h3>
                 <div class="row">
@@ -137,7 +137,7 @@
         <div class="row">
             <div class="col-xl-12">
                 <figure>
-                    <img src="assets/img/artist/DSC_0983-01.png" class="img-fluid w-100" />
+                    <img src="assets/img/artist/z.jpg" class="img-fluid w-100" />
                 </figure>
             </div>
             <div class="col-xl-4 content" style="flex: 100%!important; max-width: 100%!important;">
@@ -150,16 +150,16 @@
 </section>
 
 
-<section class="atulya-last j-center container" >
-
-    <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10">
-            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above artwork, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning name of the painting in the mail subject.</p>
+<section class="atulya-last j-center" >
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above artwork, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> </p>
         </div>
-        <div class="col-lg-1"></div>
+        <div class="col-lg-3"></div>
     </div>
-
+    </div>
 </section>
 
 <?php include('footer.php')  ?>

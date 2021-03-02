@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/LRM_EXPORT_20180812_174856-01.png" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/p1.jpg" class="img-fluid w-100" alt="">
                 </figure>
                 <!-- <h3>Sangeet</h3> -->
                 <div class="row">
@@ -35,7 +35,7 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/DSC_0988-02.png" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/p2.jpg" class="img-fluid w-100" alt="">
                 </figure>
                 <!-- <h3>Rani sa</h3> -->
                 <div class="row">
@@ -52,7 +52,7 @@
         <div class="row">
             <div class="col-xl-12">
                 <figure>
-                    <img src="assets/img/artist/DSC_0983-01.png" class="img-fluid w-100" />
+                    <img src="assets/img/artist/p3.jpg" class="img-fluid w-100" />
                 </figure>
             </div>
             <div class="col-xl-4 content" style="flex: 100%!important; max-width: 100%!important;">
@@ -77,7 +77,7 @@
                     <p>Your portraits will live much longer than you. We promise that our artist can paint you in beautiful colours on a canvass, much attractive than a photograph. Try gifting a portrait to a loved one for it will strengthen your bond with the person. </p>
                 </div>
                 <div class="col-xl-2 view-desktop"></div>
-                <div class="col-xl-6 col-lg-6 col-md-6 order2">
+                <div class="col-xl-6 col-lg-5 col-md-6 order2">
                     <figure>
                         <img src="assets/img/artist/1.jpg" class="img-fluid">
                     </figure>
@@ -92,7 +92,7 @@
 
         <div class="content">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <h5>Folk Art</h5>
                     <h1 class="">Rich <span>traditions</span><br><span>painted</span> in colours</h1>
                     <p class="intro" style="margin-top:24px">India is a home to numerous traditional art forms. These art forms depict stories of various cultures from different parts of India and are an invaluable part of our civilisation. We promise to bring to you these different art forms including<strong> Madhubani, Pattachitra, Wurli, Phad, Picchwai, Miniature</strong> from artists who have been carrying on these traditions from generations. One thing which we can assure you is, these traditional paintings will make your spaces much more beautiful since they carry with them a sense of heritage.</p>
@@ -100,26 +100,25 @@
                        <!--  <a href="atulya-arts.php" class="btn-call-to-action">View All Services</a> -->
                     </div>
                 </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-4">
-                    <img src="assets/img/artist/catherina-schurmann-lk_mlCrHYK8-unsplash.png" class="img-fluid w-100" alt="">
+                <div class="col-lg-1 col-sm-1"></div>
+                <div class="col-lg-6 col-sm-4">
+                    <img src="assets/img/Folk Art_/2.jpg" class="img-fluid " alt="">
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="atulya-last j-center container" >
-
-    <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10">
-            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above products & services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning the type of service you demand in the mail subject.</p>
+<section class="atulya-last j-center" >
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above product or service, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> </p>
         </div>
-        <div class="col-lg-1"></div>
+        <div class="col-lg-3"></div>
     </div>
-
+    </div>
 </section>
-
  <?php include('footer.php')  ?>
 
 
